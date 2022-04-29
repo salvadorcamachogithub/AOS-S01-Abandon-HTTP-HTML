@@ -10,3 +10,4 @@ mdrv_cmd.txt
 options.txt
 **/*.lck
 **/*Res*
+**/result*
