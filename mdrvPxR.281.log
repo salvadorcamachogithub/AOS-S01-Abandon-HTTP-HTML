@@ -1,0 +1,6 @@
+Notify: Initialized Dynamic Filter API for Network Virtualization emulation.	[MsgId: MMSG-56949]
+Action.c(11): Error -27721: Step download timeout (120 seconds) has expired when downloading resource "https://advantageonlineshopping.com//"  	[MsgId: MERR-27721]
+Action.c(11): Error -26366: "Text=Advantage Shopping" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(11): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+Error: Could not find vuser run result file 'C:\Users\demo\AppData\Local\Temp\1\res\log\aos_s01_abandon_http_html_nv1_1\Results.xml'.	[MsgId: MERR-206300]
+Notify: The Network Virtualization Emulation Dynamic Filter API was closed.	[MsgId: MMSG-56945]

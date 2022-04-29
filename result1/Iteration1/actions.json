@@ -1,0 +1,134 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: {AOS_URL}",
+                "infFile": "t1.inf",
+                "time": 1650618040600
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: ALL",
+                "infFile": "t2.inf",
+                "time": 1650618040747
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t3.inf",
+                "time": 1650618040941
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: categories",
+                "infFile": "t4.inf",
+                "time": 1650618041123
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: search",
+                "infFile": "t5.inf",
+                "time": 1650618041297
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: popularProducts.json",
+                "infFile": "t6.inf",
+                "time": 1650618041389
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: home-page.html",
+                "infFile": "t7.inf",
+                "time": 1650618041658
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: products",
+                "infFile": "t9.inf",
+                "time": 1650618052881
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: attributes",
+                "infFile": "t10.inf",
+                "time": 1650618053053
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: category-page.html",
+                "infFile": "t11.inf",
+                "time": 1650618053145
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: randomProduct",
+                "infFile": "t12.inf",
+                "time": 1650618067368
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: all_data",
+                "infFile": "t13.inf",
+                "time": 1650618067794
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: products_2",
+                "infFile": "t14.inf",
+                "time": 1650618068082
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: product-page.html",
+                "infFile": "t15.inf",
+                "time": 1650618068343
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: user-not-login-page.html",
+                "infFile": "t17.inf",
+                "time": 1650618090045
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AOS-S01-01 Access AOS URL",
+                "rawStartTime": 1650618033252,
+                "rawEndTime": 1650618041660,
+                "thinkTime": 0.0,
+                "wastedTime": 0.23526978492736817
+            },
+            {
+                "transactionName": "AOS-S01-02 Go To Speakers",
+                "rawStartTime": 1650618052600,
+                "rawEndTime": 1650618053147,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013953208923339844
+            },
+            {
+                "transactionName": "AOS-S01-03 Random Product",
+                "rawStartTime": 1650618067143,
+                "rawEndTime": 1650618068345,
+                "thinkTime": 0.0,
+                "wastedTime": 0.015428543090820313
+            },
+            {
+                "transactionName": "AOS-S01-04 Add To Cart",
+                "rawStartTime": 1650618079402,
+                "rawEndTime": 1650618079643,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004241943359375
+            },
+            {
+                "transactionName": "AOS-S01-05 Checkout",
+                "rawStartTime": 1650618089926,
+                "rawEndTime": 1650618090046,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005546092987060547
+            }
+        ]
+    }
+]
